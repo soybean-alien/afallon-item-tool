@@ -137,6 +137,7 @@ network connections, or include any Afallon code or assets.
 - **soybean_alien**: idea, design direction, testing.
 - **[BepInEx](https://github.com/BepInEx/BepInEx)** (LGPL-2.1), plus **[Il2CppInterop](https://github.com/BepInEx/Il2CppInterop)** (LGPL-3.0) and **[HarmonyX](https://github.com/BepInEx/HarmonyX)** (MIT). Required, not included.
 - **[Geist](https://github.com/vercel/geist-font)** font by Vercel (SIL OFL 1.1). Bundled; used only if you opt in.
+- **[Afallon Compendium](https://afallon.compendiums.org/)** by **Johann Glock ([@glockyco](https://github.com/glockyco))**, an unofficial fan-made Afallon database ([about](https://afallon.compendiums.org/about/), [source](https://github.com/glockyco/afallon-compendium)). Thanks to the Compendium team for their item-source reference work. No Compendium data is bundled; the mod reads sources from your installed game at runtime.
 - **[Unity](https://unity.com)** uGUI and **[TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest)**, used from the game's own runtime (not included).
 - **[Afallon](https://store.steampowered.com/app/2597810/)** by **Stargazing Interactive**. No game files are included; names, stats and icons are read from your own installed copy while the game runs.
 - **AI authorship:** this mod was vibe-coded with AI. It was built with
