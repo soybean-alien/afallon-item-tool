@@ -134,6 +134,8 @@ network connections, or include any Afallon code or assets.
 
 ## Credits
 
+Who did what: see [AUTHORS.md](AUTHORS.md).
+
 - **soybean_alien**: idea, design direction, testing.
 - **[BepInEx](https://github.com/BepInEx/BepInEx)** (LGPL-2.1), plus **[Il2CppInterop](https://github.com/BepInEx/Il2CppInterop)** (LGPL-3.0) and **[HarmonyX](https://github.com/BepInEx/HarmonyX)** (MIT). Required, not included.
 - **[Geist](https://github.com/vercel/geist-font)** font by Vercel (SIL OFL 1.1). Bundled; used only if you opt in.
