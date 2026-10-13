@@ -1,4 +1,4 @@
-# Afallon Item Spawner: an in-game item spawner for Afallon
+# Afallon Item Tool: an in-game item spawner for Afallon
 
 **v0.3.0-alpha.** A BepInEx 6 IL2CPP plugin for testing. Build out a character and try
 gear, builds and items *before* you commit to them on a real playthrough. Press **F8**
