@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+    <AssemblyName>AfallonItemSpawner</AssemblyName>
+    <AfallonGameRoot Condition="'$(AfallonGameRoot)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Afallon</AfallonGameRoot>
+    <BepInExCore>$(AfallonGameRoot)\BepInEx\core</BepInExCore>
+    <AfallonInterop>$(AfallonGameRoot)\BepInEx\interop</AfallonInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AfallonItemSpawner.Core\AfallonItemSpawner.Core.csproj" />
+    <Reference Include="BepInEx.Core" HintPath="$(BepInExCore)\BepInEx.Core.dll" Private="false" />
+    <Reference Include="BepInEx.Unity.IL2CPP" HintPath="$(BepInExCore)\BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="Il2CppInterop.Runtime" HintPath="$(BepInExCore)\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(AfallonInterop)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="Il2Cppmscorlib" HintPath="$(AfallonInterop)\Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(AfallonInterop)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.IMGUIModule" HintPath="$(AfallonInterop)\UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(AfallonInterop)\UnityEngine.InputLegacyModule.dll" Private="false" />
+    <Reference Include="UnityEngine.UI" HintPath="$(AfallonInterop)\UnityEngine.UI.dll" Private="false" />
+    <Reference Include="UnityEngine.UIModule" HintPath="$(AfallonInterop)\UnityEngine.UIModule.dll" Private="false" />
+    <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(AfallonInterop)\UnityEngine.TextRenderingModule.dll" Private="false" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$(AfallonInterop)\Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" HintPath="$(AfallonInterop)\UnityEngine.TextCoreFontEngineModule.dll" Private="false" />
+    <Reference Include="Il2CppInterop.Common" HintPath="$(BepInExCore)\Il2CppInterop.Common.dll" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Geist (SIL Open Font License 1.1) ships next to the plugin: fonts\Geist-*.ttf + license. -->
+    <None Include="fonts\**\*" CopyToOutputDirectory="PreserveNewest" LinkBase="fonts" />
+  </ItemGroup>
+</Project>
+
