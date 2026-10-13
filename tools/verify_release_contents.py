@@ -1,4 +1,4 @@
-"""Fail-closed scanner for an Afallon Item Spawner release directory or ZIP."""
+"""Fail-closed scanner for an Afallon Item Tool release directory or ZIP."""
 
 from __future__ import annotations
 

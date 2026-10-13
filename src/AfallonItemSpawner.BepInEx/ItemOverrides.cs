@@ -244,7 +244,7 @@ internal static class ItemOverrides
         {
             var lines = new List<string>
             {
-                "# Afallon Item Spawner - item stat overrides (personal use).",
+                "# Afallon Item Tool - item stat overrides (personal use).",
                 "# Format: itemId|statId=value;statId=value[|L=1][|M=n]   L=1 = usable at level 1, M=n = consumable effect x n.",
                 "# Delete a line (or use Clear in the menu) to restore an item.",
             };

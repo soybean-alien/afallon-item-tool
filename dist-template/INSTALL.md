@@ -1,4 +1,4 @@
-# Afallon Item Spawner — v0.3.0-alpha
+# Afallon Item Tool — v0.3.0-alpha
 
 **ALPHA · for testing only · by soybean_alien · vibe-coded with AI (Anthropic Claude + OpenAI Codex)**
 
@@ -20,7 +20,7 @@ detailed preview. One click puts an item in your bag.
 |---|---|---|
 | **REQUIRED** | **Afallon** on Steam (Windows) | Tested on Early Access **0.16.3**. Other versions may not work. |
 | **REQUIRED** | **[BepInEx 6.0.0-be.788 — Unity IL2CPP, Windows x64](https://builds.bepinex.dev/projects/bepinex_be/788/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788%2B5b766a3.zip)** | The mod loader. The mod **will not run** without it. |
-| | This mod: `AfallonItemSpawner-0.3.0-alpha.zip` | |
+| | This mod: `AfallonItemTool-0.3.0-alpha.zip` | |
 
 **About BepInEx (read this):**
 - You need exactly **BepInEx 6, build #788, "Unity.IL2CPP-win-x64"**. The link above
@@ -63,14 +63,14 @@ To restore later, close the game and copy the files back.
    - A black console window opens beside the game. That's normal.
 5. Quit the game.
 
-## Step 4: Install the Item Spawner
+## Step 4: Install the Item Tool
 
-1. Extract `AfallonItemSpawner-0.3.0-alpha.zip` somewhere (your Desktop is fine).
+1. Extract `AfallonItemTool-0.3.0-alpha.zip` somewhere (your Desktop is fine).
 2. Inside it there's a folder named **`BepInEx`**. Drag that `BepInEx` folder **into the
    game folder**. If Windows asks, choose **Replace / Merge**.
 3. Check it: this file must exist:
    ```
-   <game folder>\BepInEx\plugins\AfallonItemSpawner\AfallonItemSpawner.dll
+   <game folder>\BepInEx\plugins\AfallonItemTool\AfallonItemSpawner.dll
    ```
    Keep everything in that folder together (both DLLs and the `fonts` folder).
 
@@ -134,7 +134,7 @@ slots**. Before you lower it or uninstall, move everything into the first 105 sl
 
 1. If you made the bag bigger, empty the extra slots first (see the warning above).
 2. Close Afallon.
-3. Delete `<game folder>\BepInEx\plugins\AfallonItemSpawner\`.
+3. Delete `<game folder>\BepInEx\plugins\AfallonItemTool\`.
 4. Optional: delete `<game folder>\BepInEx\config\soybean_alien.afallon.itemspawner*`.
 5. Optional, to remove BepInEx completely: delete `BepInEx\`, `dotnet\`, `winhttp.dll`,
    `doorstop_config.ini`, `.doorstop_version` and `changelog.txt` from the game folder.

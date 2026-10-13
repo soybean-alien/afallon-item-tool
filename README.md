@@ -5,7 +5,7 @@ gear, builds and items *before* you commit to them on a real playthrough. Press 
 in-game to open a window listing every item in the game, then click **Add** to put one
 in your bag.
 
-![Afallon Item Spawner in action](docs/media/demo.gif)
+![Afallon Item Tool in action](docs/media/demo.gif)
 
 - **Every item:** all 1,234, including quest items and hidden/developer items, with the game's own icons.
 - **Find anything:** search by name, ID, type, rarity, class or source; category tabs; class filter.
@@ -39,7 +39,7 @@ Windows only. The mod runs inside the game through the BepInEx mod loader, which
   **[BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788+5b766a3.zip](https://builds.bepinex.dev/projects/bepinex_be/788/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.788%2B5b766a3.zip)**
   (about 34 MB; [all builds](https://builds.bepinex.dev/projects/bepinex_be)).
   **BepInEx 5 and the Mono builds will not work.** Other BepInEx 6 builds are untested.
-- **`AfallonItemSpawner-0.3.0-alpha.zip`** from [Releases](../../releases).
+- **`AfallonItemTool-0.3.0-alpha.zip`** from [Releases](../../releases).
 
 ### Steps
 
@@ -52,9 +52,9 @@ Windows only. The mod runs inside the game through the BepInEx mod loader, which
    `BepInEx\`, `dotnet\` and `winhttp.dll` sit next to `Afallon.exe`.
 4. **Start Afallon once** and wait for the main menu. The first start takes 1–5 minutes
    while BepInEx prepares itself, and it may look frozen. Then quit.
-5. **Install the mod.** Unzip `AfallonItemSpawner-0.3.0-alpha.zip` into the game folder
+5. **Install the mod.** Unzip `AfallonItemTool-0.3.0-alpha.zip` into the game folder
    (merge the `BepInEx` folder). You should now have
-   `BepInEx\plugins\AfallonItemSpawner\AfallonItemSpawner.dll`.
+   `BepInEx\plugins\AfallonItemTool\AfallonItemSpawner.dll`.
 6. **Play.** Start Afallon and load a character. Press **F8**, pick an item, set the
    quantity, then press **Add**.
 
@@ -64,7 +64,7 @@ The full guide, including usage, every setting, and the bag-size warning, is
 ### Uninstall
 
 If you enlarged the bag, first move everything into the first 105 slots. Then close the
-game and delete `BepInEx\plugins\AfallonItemSpawner\` (and optionally
+game and delete `BepInEx\plugins\AfallonItemTool\` (and optionally
 `BepInEx\config\soybean_alien.afallon.itemspawner*`). Spawned items stay in your
 inventory; stat overrides disappear with the mod.
 
@@ -106,13 +106,13 @@ dotnet run --project tests/AfallonItemSpawner.Core.Tests
    ```
    powershell -ExecutionPolicy Bypass -File tools/build_package.ps1 -GameRoot "C:\path\to\Afallon"
    ```
-2. It writes `dist/AfallonItemSpawner-<version>.zip` and refuses to finish if the zip
+2. It writes `dist/AfallonItemTool-<version>.zip` and refuses to finish if the zip
    contains any game file, interop assembly or source file
    (`tools/verify_release_contents.py`). Archive layout:
    ```
-   BepInEx/plugins/AfallonItemSpawner/AfallonItemSpawner.dll
-   BepInEx/plugins/AfallonItemSpawner/AfallonItemSpawner.Core.dll
-   BepInEx/plugins/AfallonItemSpawner/fonts/Geist-*.ttf, Geist-OFL-LICENSE.txt
+   BepInEx/plugins/AfallonItemTool/AfallonItemSpawner.dll
+   BepInEx/plugins/AfallonItemTool/AfallonItemSpawner.Core.dll
+   BepInEx/plugins/AfallonItemTool/fonts/Geist-*.ttf, Geist-OFL-LICENSE.txt
    README.md, INSTALL.md, LICENSE, DISCLAIMER.md, THIRD-PARTY-NOTICES.md, SHA256SUMS.txt
    ```
 

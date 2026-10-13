@@ -3,7 +3,7 @@
 ## Bundled in the release package
 
 ### Geist font (Vercel)
-- Files: `BepInEx/plugins/AfallonItemSpawner/fonts/Geist-*.ttf`
+- Files: `BepInEx/plugins/AfallonItemTool/fonts/Geist-*.ttf`
 - License: **SIL Open Font License 1.1**. The full text ships next to the fonts as
   `Geist-OFL-LICENSE.txt`.
 - Source: <https://github.com/vercel/geist-font>

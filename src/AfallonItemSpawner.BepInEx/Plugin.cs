@@ -13,7 +13,7 @@ namespace AfallonItemSpawner.BepInEx;
 public sealed class Plugin : BasePlugin
 {
     public const string PluginGuid = "soybean_alien.afallon.itemspawner";
-    public const string PluginName = "Afallon Item Spawner";
+    public const string PluginName = "Afallon Item Tool";
     public const string PluginVersion = "0.3.0-alpha";
 
     internal static ConfigEntry<bool> AllowQuestItems { get; private set; }

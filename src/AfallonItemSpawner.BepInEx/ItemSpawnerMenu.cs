@@ -347,7 +347,7 @@ internal sealed class SpawnerWindow
                 return null;
             }
 
-            font.name = "Geist-Medium (Item Spawner)";
+            font.name = "Geist-Medium (Item Tool)";
             font.hideFlags = HideFlags.DontUnloadUnusedAsset;
             CatalogProbeState.Log?.LogInfo($"Font: bundled Geist loaded from {path}.");
             return font;
@@ -418,7 +418,7 @@ internal sealed class SpawnerWindow
     {
         _header = Place(NewRect(_panel, "Header"), 0f, 0f, Width, 32f);
         SkinHeader(AddImage(_header.gameObject, HeaderColor, true));
-        var title = AddText(_header, "Title", "Afallon Item Spawner", 16f, _skinned ? new Color(1f, 0.86f, 0.52f, 1f) : Color.white);
+        var title = AddText(_header, "Title", "Afallon Item Tool", 16f, _skinned ? new Color(1f, 0.86f, 0.52f, 1f) : Color.white);
         Place(title.rectTransform, Margin, 0f, Width - 160f, 32f);
         // Title uses the same regular style as the item list (user request).
         var hint = AddText(_header, "Hint", $"{Plugin.ToggleKey?.Value ?? KeyCode.F8} hides  |  drag to move", 16f, _skinned ? new Color(1f, 0.86f, 0.52f, 1f) : MutedText);

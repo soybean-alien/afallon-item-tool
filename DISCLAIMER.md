@@ -1,6 +1,6 @@
 # Disclaimer
 
-**Afallon Item Spawner is an unofficial fan-made mod in ALPHA. It is for testing only.**
+**Afallon Item Tool is an unofficial fan-made mod in ALPHA. It is for testing only.**
 
 1. **No affiliation.** Afallon is developed and published by **Stargazing Interactive**
    (Steam App 2597810, Early Access). This project is an independent fan creation. It
