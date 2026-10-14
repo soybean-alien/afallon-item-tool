@@ -119,7 +119,7 @@ dotnet run --project tests/AfallonItemSpawner.Core.Tests
    BepInEx/plugins/AfallonItemTool/AfallonItemSpawner.dll
    BepInEx/plugins/AfallonItemTool/AfallonItemSpawner.Core.dll
    BepInEx/plugins/AfallonItemTool/fonts/Geist-*.ttf, Geist-OFL-LICENSE.txt
-   README.md, INSTALL.md, LICENSE, DISCLAIMER.md, THIRD-PARTY-NOTICES.md, SHA256SUMS.txt
+   README.md, INSTALL.md, LICENSE, NOTICE.md, DISCLAIMER.md, THIRD-PARTY-NOTICES.md, SHA256SUMS.txt
    ```
 
 ### Project layout
@@ -157,9 +157,20 @@ Who did what: see [AUTHORS.md](AUTHORS.md).
 
 ## License
 
-The mod's code is under the **MIT License**: see the [LICENSE](LICENSE) file in this repo
-(standard text at [opensource.org/license/mit](https://opensource.org/license/mit)). It
-comes with no warranty; use it at your own risk. Third-party components keep their own
+Copyright (C) 2026 soybean_alien. The mod is licensed under the
+**[GNU General Public License v3.0](LICENSE)**
+([gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.html)), with
+**additional terms in [NOTICE.md](NOTICE.md)**:
+
+- **Credit is required.** Any fork, modified version or redistribution must keep the
+  credit *"Afallon Item Tool by soybean_alien"* (or *"Based on Afallon Item Tool by
+  soybean_alien"*) with a link to this repo, and the in-game *"brought to you by
+  soybean_alien"* line (GPL-3.0 §7(b)).
+- **Modified versions must be marked as modified** and not passed off as the original (§7(c)).
+- **Changes stay open.** Under the GPL, anyone who distributes a modified version must
+  release its source under the same license.
+
+It comes with no warranty; use it at your own risk. Third-party components keep their own
 licenses: [BepInEx (LGPL-2.1)](https://github.com/BepInEx/BepInEx/blob/master/LICENSE),
 [Geist (SIL OFL 1.1)](https://github.com/vercel/geist-font/blob/main/OFL.txt). See
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and [DISCLAIMER.md](DISCLAIMER.md).

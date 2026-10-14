@@ -19,7 +19,7 @@ Copy-Item "$out\AfallonItemSpawner.dll", "$out\AfallonItemSpawner.Core.dll" $plu
 Copy-Item "$out\fonts\*" "$plugin\fonts"
 Copy-Item "$root\dist-template\INSTALL.md" $stage
 Copy-Item "$root\dist-template\INSTALL.md" (Join-Path $stage 'README.md')
-Copy-Item "$root\LICENSE", "$root\THIRD-PARTY-NOTICES.md", "$root\DISCLAIMER.md" $stage
+Copy-Item "$root\LICENSE", "$root\NOTICE.md", "$root\THIRD-PARTY-NOTICES.md", "$root\DISCLAIMER.md" $stage
 
 $hashes = Get-ChildItem $stage -Recurse -File | Where-Object Name -ne 'SHA256SUMS.txt' | ForEach-Object {
     "$((Get-FileHash $_.FullName).Hash)  $($_.FullName.Substring($stage.Length + 1))" }

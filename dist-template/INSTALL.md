@@ -178,7 +178,9 @@ what you did, what happened, your Afallon version, and your `BepInEx\LogOutput.l
 - For **single-player, personal testing** only. Don't use it to gain an advantage over
   other players, and don't sell it.
 - **Use at your own risk. No warranty. Saves are not guaranteed.** See `DISCLAIMER.md`.
-- Mod code: MIT License (`LICENSE`). Bundled font Geist: SIL Open Font License 1.1.
+- Mod code: GNU GPL v3.0 (`LICENSE`) with additional terms in `NOTICE.md`: forks and
+  modified versions must credit "Afallon Item Tool by soybean_alien" and be marked as
+  modified. Bundled font Geist: SIL Open Font License 1.1.
   BepInEx: LGPL-2.1, not included. See `THIRD-PARTY-NOTICES.md`.
 - **AI disclosure:** this mod was vibe-coded with AI. soybean_alien directed and tested it;
   the code was written with Anthropic Claude and OpenAI Codex.
