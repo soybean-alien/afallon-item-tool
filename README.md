@@ -138,29 +138,16 @@ dotnet run --project tests/AfallonItemSpawner.Core.Tests
 The mod does not modify game files, touch DRM, anti-cheat or online services, make
 network connections, or include any Afallon code or assets.
 
-## Credits
-
-Who did what: see [AUTHORS.md](AUTHORS.md).
-
-- **soybean_alien**: idea, design direction, testing.
-- **[BepInEx](https://github.com/BepInEx/BepInEx)** (LGPL-2.1), plus **[Il2CppInterop](https://github.com/BepInEx/Il2CppInterop)** (LGPL-3.0) and **[HarmonyX](https://github.com/BepInEx/HarmonyX)** (MIT). Required, not included.
-- **[Geist](https://github.com/vercel/geist-font)** font by Vercel (SIL OFL 1.1). Bundled; used only if you opt in.
-- **[Afallon Compendium](https://afallon.compendiums.org/)** by **Johann Glock ([@glockyco](https://github.com/glockyco))**, an unofficial fan-made Afallon database ([about](https://afallon.compendiums.org/about/), [source](https://github.com/glockyco/afallon-compendium)). Thanks to the Compendium team for their item-source reference work. No Compendium data is bundled; the mod reads sources from your installed game at runtime.
-- **[Unity](https://unity.com)** uGUI and **[TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest)**, used from the game's own runtime (not included).
-- **[Afallon](https://store.steampowered.com/app/2597810/Afallon/)** by **Stargazing Interactive**, the solo developer ([u/Alfred_money_pants](https://www.reddit.com/user/Alfred_money_pants/) on Reddit), who made the game and gave **explicit permission** for this mod to be shared publicly. No game files are included; names, stats and icons are read from your own installed copy while the game runs.
-- **AI authorship:** this mod was vibe-coded with AI. It was built with
-  **[Claude Code](https://www.anthropic.com/claude-code)** using
-  [Anthropic](https://www.anthropic.com)'s **Claude Opus** model (credited as a co-author on
-  the commits) and with **[OpenAI Codex](https://openai.com/codex)**. soybean_alien directed
-  the work and tested it in-game. The mod includes no AI-generated art or audio; the UI
-  art is drawn procedurally in code.
+## Credits and AI disclosure
+- Made by **soybean_alien**. Licensed under the **GNU GPL v3.0** with attribution terms (see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md)).
+- [BepInEx](https://github.com/BepInEx/BepInEx), [Il2CppInterop](https://github.com/BepInEx/Il2CppInterop) and [HarmonyX](https://github.com/BepInEx/HarmonyX). Afallon Item Tool is a BepInEx 6 IL2CPP plugin.
+- [Geist](https://github.com/vercel/geist-font) font by Vercel (SIL OFL 1.1), bundled and used only if you opt in.
+- [Afallon Compendium](https://afallon.compendiums.org/) by Johann Glock ([@glockyco](https://github.com/glockyco)) for item-source reference work. No Compendium data is bundled.
+- Afallon © Stargazing Interactive. Afallon Item Tool is an unofficial fan project and isn't affiliated with Stargazing Interactive; it is shared publicly with the developer's permission.
+- **AI disclosure:** Afallon Item Tool was designed with and written by **Claude Code (Anthropic, Claude Opus)** and **OpenAI Codex**, directed and play-tested by the author. It includes no AI-generated art or audio; the UI art is drawn in code. Every feature listed above was tested in-game before release.
 
 ## License
-
-Copyright (C) 2026 soybean_alien. The mod is licensed under the
-**[GNU General Public License v3.0](LICENSE)**
-([gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.html)), with
-**additional terms in [NOTICE.md](NOTICE.md)**:
+Licensed under the **[GNU General Public License v3.0](LICENSE)**, with **additional terms in [NOTICE.md](NOTICE.md)**:
 
 - **Credit is required.** Any fork, modified version or redistribution must keep the
   credit *"Afallon Item Tool by soybean_alien"* (or *"Based on Afallon Item Tool by
@@ -170,9 +157,9 @@ Copyright (C) 2026 soybean_alien. The mod is licensed under the
 - **Changes stay open.** Under the GPL, anyone who distributes a modified version must
   release its source under the same license.
 
-It comes with no warranty; use it at your own risk. Third-party components keep their own
-licenses: [BepInEx (LGPL-2.1)](https://github.com/BepInEx/BepInEx/blob/master/LICENSE),
-[Geist (SIL OFL 1.1)](https://github.com/vercel/geist-font/blob/main/OFL.txt). See
+No warranty; use it at your own risk. Third-party components keep their own licenses
+([BepInEx, LGPL-2.1](https://github.com/BepInEx/BepInEx/blob/master/LICENSE);
+[Geist, SIL OFL 1.1](https://github.com/vercel/geist-font/blob/main/OFL.txt)). See
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and [DISCLAIMER.md](DISCLAIMER.md).
 
 ## Changelog
