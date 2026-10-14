@@ -13,6 +13,6 @@ This project was vibe-coded with AI. Here is who did what.
 - **Johann Glock** ([@glockyco](https://github.com/glockyco)) and the
   [Afallon Compendium](https://afallon.compendiums.org/) team, for their item-source reference work.
 - The [BepInEx](https://github.com/BepInEx/BepInEx) team, for the mod loader that makes this possible.
-- **Stargazing Interactive**, for making Afallon. This project is unofficial and not affiliated with them.
+- **Afallon's solo developer**, [Stargazing Interactive](https://store.steampowered.com/app/2597810/Afallon/) ([u/Alfred_money_pants](https://www.reddit.com/user/Alfred_money_pants/) on Reddit), for making Afallon and for giving explicit permission to share this mod publicly. The project is unofficial and not affiliated with or endorsed by them.
 
 No AI-generated art or audio is included. The UI art is drawn procedurally in code.

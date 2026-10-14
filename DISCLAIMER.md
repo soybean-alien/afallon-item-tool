@@ -4,10 +4,16 @@
 
 1. **No affiliation.** Afallon is developed and published by **Stargazing Interactive**
    (Steam App 2597810, Early Access). This project is an independent fan creation. It
-   is **not affiliated with, endorsed by, sponsored by or approved by Stargazing
+   is **not affiliated with, endorsed by, sponsored by or supported by Stargazing
    Interactive**, Valve/Steam, or any owner of the Afallon IP. "Afallon" and all related
    names, marks and assets belong to their respective owners and are used here only to
    describe what the mod is compatible with.
+
+   **Permission:** Afallon's solo developer (Stargazing Interactive; Reddit
+   [u/Alfred_money_pants](https://www.reddit.com/user/Alfred_money_pants/)) gave
+   **explicit permission** for this mod to be shared publicly (October 2026), asking only
+   to be credited. That permission is not an endorsement: report bugs to this project,
+   not to the developer.
 
    Afallon has no game-specific EULA on its Steam page, so your use of the game is
    governed by the Steam Subscriber Agreement. You are responsible for making sure

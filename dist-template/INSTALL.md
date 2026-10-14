@@ -167,9 +167,12 @@ what you did, what happened, your Afallon version, and your `BepInEx\LogOutput.l
 
 ## Legal
 
-- Afallon is developed and published by **Stargazing Interactive**. This mod is **not
-  affiliated with, endorsed by, or sponsored by Stargazing Interactive** or Valve/Steam.
-  "Afallon" and its names and marks belong to their owners.
+- Afallon is developed and published by **Stargazing Interactive**. This mod is shared
+  with the **explicit permission of Afallon's solo developer** (Reddit
+  u/Alfred_money_pants). Thank you! That permission is not an endorsement: the mod is
+  **not affiliated with, endorsed by, or supported by Stargazing Interactive** or
+  Valve/Steam, so report bugs to this project, not to the developer. "Afallon" and its
+  names and marks belong to their owners.
 - This package contains **no Afallon game files**. Icons, names and stats are read from
   your own installed copy while the game runs.
 - For **single-player, personal testing** only. Don't use it to gain an advantage over

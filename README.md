@@ -19,9 +19,15 @@ in your bag.
 > **⚠ Alpha. For testing purposes only. Use with caution: saves are not guaranteed.**
 > Back up your save folder first, and preferably test on a throwaway character.
 
-Unofficial fan mod. Afallon is developed and published by **Stargazing Interactive**;
-this project is **not affiliated with, endorsed by, or sponsored by Stargazing
-Interactive** or Valve. See [DISCLAIMER.md](DISCLAIMER.md).
+> ### ✅ Shared with the developer's permission
+> This mod is shared publicly with the **explicit permission of Afallon's solo developer**
+> ([Stargazing Interactive](https://store.steampowered.com/app/2597810/Afallon/), Reddit
+> [u/Alfred_money_pants](https://www.reddit.com/user/Alfred_money_pants/)). Thank you!
+
+Unofficial fan mod. Afallon is developed and published by **Stargazing Interactive**.
+Permission to share is not an endorsement: this project is **not affiliated with,
+endorsed by, or supported by Stargazing Interactive** or Valve, so please report bugs
+here, not to the developer. See [DISCLAIMER.md](DISCLAIMER.md).
 
 | Item preview | Currency spawn |
 |---|---|
@@ -141,7 +147,7 @@ Who did what: see [AUTHORS.md](AUTHORS.md).
 - **[Geist](https://github.com/vercel/geist-font)** font by Vercel (SIL OFL 1.1). Bundled; used only if you opt in.
 - **[Afallon Compendium](https://afallon.compendiums.org/)** by **Johann Glock ([@glockyco](https://github.com/glockyco))**, an unofficial fan-made Afallon database ([about](https://afallon.compendiums.org/about/), [source](https://github.com/glockyco/afallon-compendium)). Thanks to the Compendium team for their item-source reference work. No Compendium data is bundled; the mod reads sources from your installed game at runtime.
 - **[Unity](https://unity.com)** uGUI and **[TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@latest)**, used from the game's own runtime (not included).
-- **[Afallon](https://store.steampowered.com/app/2597810/)** by **Stargazing Interactive**. No game files are included; names, stats and icons are read from your own installed copy while the game runs.
+- **[Afallon](https://store.steampowered.com/app/2597810/Afallon/)** by **Stargazing Interactive**, the solo developer ([u/Alfred_money_pants](https://www.reddit.com/user/Alfred_money_pants/) on Reddit), who made the game and gave **explicit permission** for this mod to be shared publicly. No game files are included; names, stats and icons are read from your own installed copy while the game runs.
 - **AI authorship:** this mod was vibe-coded with AI. It was built with
   **[Claude Code](https://www.anthropic.com/claude-code)** using
   [Anthropic](https://www.anthropic.com)'s **Claude Opus** model (credited as a co-author on
